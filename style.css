@@ -1,0 +1,42 @@
+header {
+  background: #9cc1b0 !important;
+  border: 0 !important;
+}
+
+.logo {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
+img:not(.logo, .noinv) {
+  filter: invert(1);
+  display: block;
+  margin: auto;
+}
+
+header table a {
+  color: #08482c !important;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+
+header table a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  border: 0 !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+  iframe {
+    width: 100%;
+  }
+}
